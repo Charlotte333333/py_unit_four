@@ -1,5 +1,6 @@
 import unittest
 from even_odd import even_or_odd
+from abs_value import absolute
 
 
 class MyTestCase(unittest.TestCase):
@@ -12,6 +13,11 @@ class MyTestCase(unittest.TestCase):
     def test_bonus(self):
         # when you are ready to write your tests, go ahead and delete pass
         pass
+
+    def test_absolute(self):
+        self.assertEqual(9, absolute(-9))
+
+
 
 
 
